@@ -16,7 +16,7 @@
         @endforeach
     </ul>
     
-    <h2>Associative Array</h2>
+<h2>Associative Array</h2>
     <p>Name: {{ $user['name'] }}</p>
     <p>Email: {{ $user['email'] }}</p>
     <p>Status: {{ $user['is_active'] ? 'Active' : 'Inactive' }}</p>
